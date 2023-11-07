@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "949300976877",
+    "project_id": "climbing-coach",
+    "storage_bucket": "climbing-coach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949300976877:android:15ca192f639c56cd1cc0e4",
+        "android_client_info": {
+          "package_name": "com.example.coach_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949300976877-cc4rpqvoo53kenmg05k869tdk6r60igm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ3w315qRu1dOu5OEDPjBaqLe0m__wWeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949300976877-cc4rpqvoo53kenmg05k869tdk6r60igm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "949300976877-1fb6ta1mouk2es9imfe8g50l48nbfp5p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.coachFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
