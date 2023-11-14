@@ -1,7 +1,6 @@
 import 'package:coach_flutter/providers/user_provider.dart';
-import 'package:coach_flutter/utils/dimensions.dart';
+import 'package:coach_flutter/utils/global_variables.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
 
 class ResponsiveLayout extends StatefulWidget {

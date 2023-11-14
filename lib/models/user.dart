@@ -38,7 +38,7 @@ static User fromSnap(DocumentSnapshot snap){
     username: snapshot['username'],
     uid: snapshot['uid'],
     email: snapshot['email'],
-    photoURL: snapshot['phohtoURL'],
+    photoURL: snapshot['photoURL'],
     bio: snapshot['bio'],
     followers: snapshot['followers'],
     following: snapshot['following'],
