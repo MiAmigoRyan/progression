@@ -6,3 +6,11 @@ const mobileSearchColor = Color.fromRGBO(38, 38, 38, 1);
 const blueColor = Color.fromRGBO(0, 149, 246, 1);
 const primaryColor = Colors.black;
 const secondaryColor = Colors.grey;
+
+final ThemeData appTheme = ThemeData(
+  scaffoldBackgroundColor: mobileBackgroundColor,
+  textTheme: const TextTheme(
+    bodyLarge: TextStyle(color: primaryColor)
+  )
+);
+

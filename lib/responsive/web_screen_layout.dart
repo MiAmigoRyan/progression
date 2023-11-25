@@ -58,23 +58,28 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
               label: '',
               backgroundColor: primaryColor),
           BottomNavigationBarItem(
-              icon: Icon(Icons.search,
+              icon: Icon(Icons.calendar_month,
                   color: _page == 1 ? primaryColor : secondaryColor),
               label: '',
               backgroundColor: primaryColor),
           BottomNavigationBarItem(
-              icon: Icon(Icons.edit_calendar,
+              icon: Icon(Icons.search,
                   color: _page == 2 ? primaryColor : secondaryColor),
               label: '',
               backgroundColor: primaryColor),
           BottomNavigationBarItem(
-              icon: Icon(Icons.favorite,
+              icon: Icon(Icons.add,
                   color: _page == 3 ? primaryColor : secondaryColor),
               label: '',
               backgroundColor: primaryColor),
           BottomNavigationBarItem(
-              icon: Icon(Icons.person,
+              icon: Icon(Icons.favorite,
                   color: _page == 4 ? primaryColor : secondaryColor),
+              label: '',
+              backgroundColor: primaryColor),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.person,
+                  color: _page == 5 ? primaryColor : secondaryColor),
               label: '',
               backgroundColor: primaryColor),
         ],

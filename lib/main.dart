@@ -40,9 +40,7 @@ class MyApp extends StatelessWidget {
     child: MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Climbing Coach',
-      theme: ThemeData.light().copyWith(
-        scaffoldBackgroundColor: mobileBackgroundColor,
-      ),
+      theme: appTheme,
       home: StreamBuilder(
         //runs only when user signs in or out
         stream: FirebaseAuth.instance.authStateChanges(),
@@ -69,6 +67,7 @@ class MyApp extends StatelessWidget {
           return const LoginScreen();
         },
       ),
-    ),);
+      ),
+    );
   }
 }
