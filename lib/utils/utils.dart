@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:intl/intl.dart';
 
 pickImage(ImageSource source) async {
   final ImagePicker _imagePicker = ImagePicker();
@@ -18,4 +19,21 @@ showSnackBar(String content, BuildContext context) {
       content: Text(content),
     ),
   );
+}
+
+ String toDate(DateTime dateTime){
+  final date = DateFormat.yMMMEd().format(dateTime);
+  return '$date';
+}
+
+ String toDateTime(DateTime dateTime){
+  final date = DateFormat.yMMMEd().format(dateTime);
+  final time = DateFormat.Hm().format(dateTime);
+
+  return '$date $time';
+}
+
+String toTime(DateTime dateTime){
+  final time = DateFormat.Hm().format(dateTime);
+  return '$time';
 }
